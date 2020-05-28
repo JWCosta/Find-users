@@ -60,14 +60,12 @@ h1 {
 
 #infoCount,
 #infoStat {
-  font-weight: 500;
   font-size: 25px;
 }
 
 .user-list {
   font-size: 18px;
   background-color: white;
-  padding: 10px;
   border: 1px solid grey;
   border-radius: 10px;
   margin-right: 20px;
@@ -75,7 +73,7 @@ h1 {
 }
 
 #userlist {
-  height: 100vh;
+  height: 430px;
   overflow-y: scroll;
 }
 
