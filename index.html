@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Find Users</title>
+  </head>
+  <body>
+    <h1>Find Users</h1>
+    <div class="find">
+      <input type="text" id="findUser" placeholder="Find name user" />
+    </div>
+
+    <div class="user-container">
+      <div class="user-list">
+        <span id="infoCount">
+          Usuários filtrados: <span id="countUsers">0</span>
+        </span>
+        <div id="userlist"></div>
+      </div>
+
+      <div class="users-statistics">
+        <span id="infoStat">Usuários do sexo masculino:</span>
+        <div class="statistics" id="countMale">0</div>
+
+        <span id="infoStat">Usuários do sexo feminino:</span>
+        <div class="statistics" id="countFemale">0</div>
+
+        <span id="infoStat">Soma das idades:</span>
+        <div class="statistics" id="sumAge">0</div>
+
+        <span id="infoStat">Média das idades:</span>
+        <div class="statistics" id="avgAge">0</div>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
