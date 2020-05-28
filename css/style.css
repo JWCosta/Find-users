@@ -75,7 +75,7 @@ h1 {
 }
 
 #userlist {
-  height: 50vh;
+  height: 100vh;
   overflow-y: scroll;
 }
 
