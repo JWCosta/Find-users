@@ -13,44 +13,46 @@
     <title>Find Users</title>
   </head>
   <body>
-    <header class="find">
-      <h1>Find Users</h1>
-      <input type="text" id="findUser" placeholder="Nome do usuário" />
-    </header>
+    <div class="container">
+      <header class="find">
+        <h1>Find Users</h1>
+        <input type="text" id="findUser" placeholder="Nome do usuário" />
+      </header>
 
-    <div class="user-container">
-      <div class="user-statistics">
-        <div class="card">
-          <span id="infoStat">Homens:</span>
-          <div class="statistics" id="countMale">0</div>
+      <div class="user-container">
+        <div class="user-statistics">
+          <div class="card">
+            <span id="infoStat">Homens:</span>
+            <div class="statistics" id="countMale">0</div>
+          </div>
+
+          <div class="card">
+            <span id="infoStat">Mulheres:</span>
+            <div class="statistics" id="countFemale">0</div>
+          </div>
+
+          <div class="card">
+            <span id="infoStat">Soma das idades:</span>
+            <div class="statistics" id="sumAge">0</div>
+          </div>
+
+          <div class="card">
+            <span id="infoStat">Média das idades:</span>
+            <div class="statistics" id="avgAge">0</div>
+          </div>
         </div>
 
-        <div class="card">
-          <span id="infoStat">Mulheres:</span>
-          <div class="statistics" id="countFemale">0</div>
-        </div>
-
-        <div class="card">
-          <span id="infoStat">Soma das idades:</span>
-          <div class="statistics" id="sumAge">0</div>
-        </div>
-
-        <div class="card">
-          <span id="infoStat">Média das idades:</span>
-          <div class="statistics" id="avgAge">0</div>
+        <div class="user-list">
+          <span id="infoCount">
+            Usuários filtrados: <span id="countUsers">0</span>
+          </span>
+          <div id="userlist"></div>
         </div>
       </div>
 
-      <div class="user-list">
-        <span id="infoCount">
-          Usuários filtrados: <span id="countUsers">0</span>
-        </span>
-        <div id="userlist"></div>
+      <div id="footer">
+        <span>Desafio Módulo 1 - Bootcamp Full Stack IGTI</span>
       </div>
-    </div>
-
-    <div id="footer">
-      <span>Desafio Módulo 1 - Bootcamp Full Stack IGTI</span>
     </div>
     <script src="./js/script.js"></script>
   </body>

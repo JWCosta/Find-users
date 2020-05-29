@@ -3,10 +3,8 @@ body {
   background-color: rgb(159, 20, 223);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-style: italic;
-  display: grid;
-  grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+  height: auto;
   width: auto;
-  max-height: 500px;
 }
 
 img {
@@ -32,7 +30,7 @@ h1 {
 #findUser {
   width: 50vw;
   padding: 5px;
-  font-size: 18px;
+  font-size: 22px;
   background-color: white;
   border-radius: 10px;
 }
