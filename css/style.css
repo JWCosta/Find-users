@@ -6,7 +6,7 @@ body {
   display: grid;
   grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
   width: auto;
-  max-height: 800px;
+  max-height: 500px;
 }
 
 img {
