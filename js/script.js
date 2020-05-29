@@ -87,10 +87,10 @@ const list = () => {
   let userListHTML = "<ul>";
   filteredUsers.forEach((user) => {
     userListHTML += `
-    <li>
+    <li class="card">
       <img src="${user.thumbnail}" alt="${user.name}" />
       <span>${user.name}</span>
-      <span> / ${user.age} anos</span>
+      <span> - ${user.age} anos</span>
     </li>
     `;
   });

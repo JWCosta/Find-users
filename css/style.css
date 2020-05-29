@@ -2,7 +2,6 @@ body {
   padding: 10px;
   background-color: rgb(159, 20, 223);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-style: italic;
   height: auto;
   width: auto;
 }
@@ -19,6 +18,12 @@ img {
 h1 {
   text-align: center;
   color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+.container {
+  color: blueviolet;
+  font-weight: 600;
 }
 
 .find {
@@ -37,7 +42,7 @@ h1 {
 
 .user-container {
   display: grid;
-  grid-template-rows: 0.5fr 0.5fr;
+  grid-row: 0.5fr 0.5fr;
   padding: 10px 0;
   margin: 20px 70px;
 }
@@ -48,15 +53,18 @@ h1 {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   border-radius: 10px;
   padding: 20px;
-  height: 50px;
+  height: 100px;
+  text-align: center;
+  justify-content: center;
 }
 
 .user-list {
-  font-size: 1.8rem;
+  font-size: 22px;
   background-color: white;
   border-radius: 10px;
+  margin: 10px 0;
 
-  height: 350px;
+  height: 330px;
 }
 
 #countUsers,
@@ -64,13 +72,13 @@ h1 {
 #countMale,
 #countFemale,
 #avgAge {
-  color: blueviolet;
-  font-size: 28px;
+  color: black;
+  font-size: 22px;
 }
 
 #infoCount,
 #infoStat {
-  font-size: 25px;
+  font-size: 22px;
 }
 
 #infoCount,
@@ -89,14 +97,8 @@ li {
 }
 
 .card {
-  border-radius: 10px;
+  font-size: 22px;
+  border-radius: 15px;
   padding: 5px 4px;
-  margin-right: 10px;
-  text-align: center;
-}
-
-#footer {
-  text-align: center;
-  font-size: 24px;
-  color: white;
+  background-color: white;
 }
