@@ -1,9 +1,12 @@
 body {
   padding: 10px;
-  /* background-image: url("../assets/naruto_34-wallpaper-1920x1200.jpg"); */
-  background-color: rgb(162, 33, 221);
-  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(159, 20, 223);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-style: italic;
+  display: grid;
+  grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+  width: auto;
+  max-height: 800px;
 }
 
 img {
@@ -21,10 +24,9 @@ h1 {
 }
 
 .find {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 20px 80px;
+  display: grid;
+  justify-content: center;
+  margin: 10px 80px;
 }
 
 #findUser {
@@ -37,16 +39,26 @@ h1 {
 
 .user-container {
   display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.5fr 0.5fr;
   padding: 10px 0;
   margin: 20px 70px;
 }
 
-.user {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.user-statistics {
+  padding: 15px 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border-radius: 10px;
+  padding: 20px;
+  height: 50px;
+}
+
+.user-list {
+  font-size: 1.8rem;
+  background-color: white;
+  border-radius: 10px;
+
+  height: 350px;
 }
 
 #countUsers,
@@ -55,7 +67,7 @@ h1 {
 #countFemale,
 #avgAge {
   color: blueviolet;
-  font-size: 30px;
+  font-size: 28px;
 }
 
 #infoCount,
@@ -63,24 +75,30 @@ h1 {
   font-size: 25px;
 }
 
-.user-list {
-  font-size: 18px;
-  background-color: white;
-  border: 1px solid grey;
-  border-radius: 10px;
-  margin-right: 20px;
-  height: auto;
+#infoCount,
+#countUsers {
+  margin-left: 30px;
 }
 
 #userlist {
-  height: 430px;
+  height: 280px;
   overflow-y: scroll;
+  margin-top: 10px;
 }
 
-.users-statistics {
-  background-color: white;
-  padding: 15px 10px;
-  border: 1px solid grey;
+li {
+  margin-left: 30px;
+}
+
+.card {
   border-radius: 10px;
-  height: auto;
+  padding: 5px 4px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+#footer {
+  text-align: center;
+  font-size: 24px;
+  color: white;
 }
