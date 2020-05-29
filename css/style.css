@@ -33,7 +33,6 @@ li {
 .find {
   display: grid;
   justify-content: center;
-  margin: 10px 80px;
 }
 
 #findUser {
